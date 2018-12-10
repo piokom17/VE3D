@@ -39,7 +39,7 @@ string Vector3D::displayResult(Vector3D& resultVector)
 {
     cout<<"Wektor:["<<resultVector.x<<","<<resultVector.y<<","<<resultVector.z<<"]"<<endl;
 }
-
+//new comment
 double Vector3D::scalarMultiplication(Vector3D& v1, Vector3D& v2)
 {
     try
