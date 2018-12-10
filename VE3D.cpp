@@ -17,7 +17,18 @@ Vector3D::Vector3D(double _x, double _y, double _z)
     this->z = _z;
     //this->vectorValue = _vectorValue;
 }
-
+    double Vector3D::getX()
+    {
+        return x;
+    }
+    double Vector3D::getY()
+    {
+        return y;
+    }
+    double Vector3D::getZ()
+    {
+        return z;
+    }
 double Vector3D::addVector(Vector3D &v1, Vector3D &v2)
 {
     v1.x = v1.x + v2.x;
@@ -31,9 +42,17 @@ string Vector3D::displayResult(Vector3D& resultVector)
 
 double Vector3D::scalarMultiplication(Vector3D& v1, Vector3D& v2)
 {
-    v1.x = v1.x*v2.x;
-    v1.y = v1.y*v2.y;
-    v1.z = v1.z*v2.z;
+    try
+    {
+        v1.x = v1.x*v2.x;
+        v1.y = v1.y*v2.y;
+        v1.z = v1.z*v2.z;
+    }
+    catch(std::exception& e)
+    {
+        cout<<"Exception caought"<<endl;
+
+    }
 }
 double Vector3D::getValue(Vector3D v1)
 {

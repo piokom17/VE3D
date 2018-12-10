@@ -11,7 +11,10 @@ public:
     double x;
     double y;
     double z;
-    double vectorValue;
+
+    double getX();
+    double getY();
+    double getZ();
 
     Vector3D();
     Vector3D(double _x, double _y, double _z);
