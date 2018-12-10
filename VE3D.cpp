@@ -21,13 +21,7 @@ string Vector3D::displayResult(Vector3D& resultVector)
 {
     cout<<"Wektor:["<<resultVector.x<<","<<resultVector.y<<","<<resultVector.z<<"]"<<endl;
 }
-void Vector3D::load()
-{
-    //narazie bez sensu moze potem sie przyda, moze dla sprawdzenia z dynamicznymi wartosciami
-    x = 5;
-    y = 6;
-    z = 8;
-}
+
 double Vector3D::scalarMultiplication(Vector3D& v1, Vector3D& v2)
 {
     v1.x = v1.x*v2.x;

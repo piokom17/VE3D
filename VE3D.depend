@@ -1,9 +1,14 @@
 # depslib dependency file v1.0
-1544471389 source:c:\users\user\source\repos\ve3d\main.cpp
+1544472287 source:c:\users\user\source\repos\ve3d\main.cpp
 	<iostream>
 	"VE3D.h"
 
-1544471484 c:\users\user\source\repos\ve3d\ve3d.h
+1544472365 c:\users\user\source\repos\ve3d\ve3d.h
 	<iostream>
+	"math.h"
+
+1544472365 source:c:\users\user\source\repos\ve3d\ve3d.cpp
+	<iostream>
+	"VE3D.h"
 	"math.h"
 

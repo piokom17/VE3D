@@ -20,7 +20,7 @@ public:
     double addVector(Vector3D& v1, Vector3D& v2);
     double scalarMultiplication(Vector3D& v1, Vector3D& v2);
     double getValue(Vector3D v1);
-    string displayResult(Vector3D &resultVector);
+    string displayResult(Vector3D& resultVector);
     double vectorProduct(Vector3D& v1, Vector3D& v2);
 
 
