@@ -13,6 +13,7 @@ public:
     double z;
     double vectorValue;
 
+    Vector3D();
     Vector3D(double _x, double _y, double _z);
     ~Vector3D();
 
@@ -21,7 +22,7 @@ public:
     double scalarMultiplication(Vector3D& v1, Vector3D& v2);
     double getValue(Vector3D v1);
     string displayResult(Vector3D& resultVector);
-    double vectorProduct(Vector3D& v1, Vector3D& v2);
+    double vectorProduct(Vector3D& v1, Vector3D& v2,Vector3D& vres);
 
 
 };
